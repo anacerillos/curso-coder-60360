@@ -1,0 +1,759 @@
+/*
+font-family: 'Inria Serif', serif;
+font-family: 'Inter', sans-serif;
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+ul{ font-family: 'Inter', sans-serif;
+    font-style: normal;
+    list-style-type: none;
+
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*----Botones----*/
+
+.boton {
+    background-color: #73230A;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    color: #F4F1EC;
+}
+
+.boton2 {
+    background-color: #CCAE7A;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    color: #F4F1EC;
+    text-align: center;
+
+}
+
+.boton3 {
+    background-color: #73230A;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    color: #F4F1EC;
+}
+/*----Header----*/
+
+header{
+    background-color: #F4F1EC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+header nav ul {
+    margin-bottom: .5rem;
+}
+
+
+@media only screen and (min-width: 947px){
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: sticky;
+        top: 0;
+    }
+
+    header ul {
+        display: flex;
+        justify-content:center;
+        gap: 1rem;      
+    }
+}
+
+
+@media only screen and (min-width: 1280px){
+    header{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        
+    }
+}
+
+
+/*----Portada----*/
+
+
+/*.texto-portada {
+    color: #F4F1EC;
+
+    text-align:center;
+    padding: 16rem;
+    gap: 1rem;
+    
+}*/
+
+
+    .portada {
+        background-image: url(../imagenes/index.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+    .texto-portada {
+        color: #F4F1EC;
+        text-align: center;
+        gap: 1rem;
+        padding: 5rem;
+    }
+
+    .texto-portada h1 {
+        color: #F4F1EC;
+        display:block;
+        text-align: center;
+    }
+
+    .texto-portada a {
+        background-color: #CCAE7A;
+        color:#F4F1EC;
+        text-align:center;
+        padding: .7rem 2rem;
+        border: 1px solid #CCAE7A;
+        border-radius: 11px;
+    
+    }
+    
+    .texto-portada h4 {
+        padding: 1rem;
+    }
+
+
+@media only screen and (min-width:947px){
+    .portada {
+        background-image: url(../imagenes/index.jpg);
+         height: 600px;
+         
+        background-position: center;
+    
+        background-attachment: fixed;
+        
+    }
+    
+    .texto-portada {
+        color: #F4F1EC;
+        display:block;
+        padding: 11rem;
+        align-items:start;
+        text-align: center;
+    }
+    
+    .texto-portada h1 {
+        color: #F4F1EC;
+        display:block;
+        padding: 0rem;
+        align-items:start;
+        text-align: center;
+    }
+    .texto-portada a {
+        background-color: #CCAE7A;
+        color:#F4F1EC;
+        text-align:center;
+        padding: .7rem 2rem;
+        border: 1px solid #CCAE7A;
+        border-radius: 11px;
+    
+    }
+    
+    .texto-portada h4 {
+        padding: 3.5rem;
+        gap: 3rem;
+    }
+    
+    }
+
+@media only screen and (min-width:1280px){
+
+.portada {
+    background-image: url("../imagenes/index.jpg");
+     height: 800px;
+     background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+    gap: 1rem;
+    
+}
+.texto-portada {
+    color: #F4F1EC;
+    display:block;
+    padding: 15rem;
+    align-items:start;
+    text-align: center;
+}
+
+.texto-portada a {
+    background-color: #CCAE7A;
+    color:#F4F1EC;
+    text-align:center;
+    padding: .7rem 2rem;
+    border: 1px solid #CCAE7A;
+    border-radius: 11px;
+
+}
+
+.texto-portada h4 {
+    padding: 4rem;
+}
+
+}
+
+/*---Empezemos---*/
+
+.seccion-empecemos{
+    background-color:#F4F1EC;
+    padding: 3rem;
+   
+}
+
+.wrapper-texto-empecemos {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:justify;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media only screen and (min-width:947px){
+
+    .seccion-empecemos{
+        background-color:#F4F1EC;
+        padding: 1rem;
+       
+    }
+    
+    .wrapper-texto-empecemos {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:justify;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:1280px){
+
+.seccion-empecemos{
+    background-color:#F4F1EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap:1rem;
+    
+    }
+    
+    .wrapper-texto-empecemos{
+        width:35%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    
+    }
+    
+}
+
+/*----proyectos en florida----*/
+
+.Proyectos-en-Florida {
+    background-color: #F4F1EC;
+    text-align:left;
+    padding: 1rem;
+}
+
+.slider-proyectos {
+    background-color:#F4F1EC;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.tarjeta{
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.tarjeta-body {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+
+@media only screen and (min-width:947px){
+
+    
+    .tarjeta-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        
+    }
+    
+    .slider-proyectos {
+        background-color:#F4F1EC;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    
+}
+
+
+@media only screen and (min-width:1280px){
+
+    .Proyectos-en-Florida {
+        text-align:left;
+        padding: 2rem;
+    }
+    
+    .tarjeta-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem; 
+       
+    }
+    
+    .slider-proyectos {
+        background-color:#F4F1EC;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+    
+}
+
+/*----Escribeme----*/
+
+.escribeme {
+    background-image: url(../imagenes/escribeme.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.texto-escribeme {
+    color:#282626;
+    text-align: center;
+    gap: 1rem;
+    padding: 5rem;
+}
+
+.texto-escribeme h2 {
+    color:#282626;
+    display:block;
+    text-align: center;
+}
+
+.texto-escribeme a {
+    background-color:#282626;
+    color:#F4F1EC;
+    text-align:center;
+    padding: .7rem 2rem;
+    border: 1px solid #282626;
+    border-radius: 11px;
+
+}
+
+.texto-escribeme h4 {
+    padding: 1rem;
+}
+
+@media only screen and (min-width:947px){
+    .escribeme {
+        background-image: url(../imagenes/escribeme.png);
+         height: 400px;
+         
+        background-position: center;
+    
+        background-attachment: fixed;
+        
+    }
+    
+    .texto-escribeme {
+        color: #282626;
+        display:block;
+        padding: 6rem;
+        align-items:start;
+        text-align: center;
+    }
+    
+    .texto-escribeme h2 {
+        color:#282626;
+        display:block;
+        padding: 0rem;
+        align-items:start;
+        text-align: center;
+    }
+    .texto-escribeme a {
+        background-color: #282626;
+        color:#F4F1EC;
+        text-align:center;
+        padding: .7rem 2rem;
+        border: 1px solid #282626;
+        border-radius: 11px;
+    
+    }
+    
+    .texto-escribeme h4 {
+        padding: 3.5rem;
+        gap: 3rem;
+    }
+    
+    }
+
+    @media only screen and (min-width:1280px){
+
+        .escribeme {
+            background-image: url("../imagenes/escribeme.png");
+             height: 400px;
+             background-size: cover;
+        
+            background-position: center;
+        
+            background-attachment: fixed;
+            gap: 1rem;
+            
+        }
+        .texto-escribeme {
+            color: #282626;
+            display:block;
+            padding: 6rem;
+            align-items:start;
+            text-align: center;
+        }
+        
+        .texto-escribeme a {
+            background-color: #282626;
+            color:#F4F1EC;
+            text-align:center;
+            padding: .7rem 2rem;
+            border: 1px solid #282626;;
+            border-radius: 11px;
+        
+        }
+        
+        .texto-escribeme h4 {
+            padding: 4rem;
+        }
+        
+        }
+
+/*----Footer----*/
+
+.footer{
+
+    background-color:#282626;
+    height: 350px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+   
+}
+
+.whatsapp {
+
+    position: fixed; 
+    right: 20px;
+    bottom: 20px;
+}
+
+
+/*---Acerca de mi----*/
+
+
+.bio{
+    background-color:#F4F1EC;
+    padding: 3rem;
+    
+   
+}
+
+.wrapper-texto-bio {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:justify;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media only screen and (min-width:947px){
+
+    .bio{
+        background-color:#F4F1EC;
+        padding: 1rem;
+       
+    }
+    
+    .wrapper-texto-bio {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:justify;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:1280px){
+
+.bio {
+    background-color:#F4F1EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    gap:1rem;
+    
+    }
+    
+    .wrapper-texto-bio{
+        width:35%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    
+    }
+    
+}
+
+
+/*---Blog----*/
+
+.bg-blue{
+background-color: #F4F1EC;
+
+}
+
+
+.bg-1 {
+    background-color: #73230A;
+    color:#F4F1EC
+
+}
+
+.bg-1:hover {
+    border: 2px solid #73230A;
+    background-color: #F4F1EC;
+    color: #73230A;
+
+
+}
+
+/*.slider-blog {
+    background-color:#F4F1EC;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.tarjeta{
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.tarjeta-body {
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tarjeta-body h3{
+    text-align:center;
+
+}
+
+@media only screen and (min-width:947px){
+
+    .slider-blog {
+        background-color:#F4F1EC;
+        padding: 3rem;
+        gap: 1rem;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .tarjeta{
+        align-items: center;
+        gap: 1rem;
+    
+    }
+    
+    
+    .tarjeta-body {
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .tarjeta-body h3{
+        text-align:center;
+    
+    }
+     
+}
+
+
+@media only screen and (min-width:947px){
+
+    .slider-blog {
+        background-color:#F4F1EC;
+        padding: 3rem;
+        gap: 1rem;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .tarjeta{
+        align-items: center;
+        gap: 1rem;
+    
+    }
+    
+    
+    .tarjeta-body {
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .tarjeta-body h3{
+        text-align:center;
+    
+    }
+     
+}----*/
+
+
+/*---contactame---*/
+
+.Contacto{
+    background-color:#F4F1EC;
+    padding: 3rem;
+    gap: 1rem;
+
+}
+
+.Formulario{
+
+    gap: 1rem;
+    padding: 1rem;
+
+
+}
+
+@media only screen and (min-width:947px){
+
+    .Contacto{
+        background-color:#F4F1EC;
+        padding: 3rem;
+        gap: 1rem;
+        height: 800px;
+        display: flex;
+        align-items: center;
+    
+    }
+
+
+}
+
+
+@media only screen and (min-width:1280px){
+
+    .Contacto{
+        background-color:#F4F1EC;
+        padding: 3rem;
+        gap: 1rem;
+        height: 800px;
+        display: flex;
+        align-items: center;
+    
+    }
+
+
+}

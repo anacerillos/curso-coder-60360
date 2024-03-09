@@ -6,12 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="index">
   
-    <header>
+    <!--<header>
         <img src="./imagenes/rc_completo_gris.png" alt="logo">
 
       <nav>
@@ -23,9 +25,37 @@
          </ul>
      </nav>
 
-    </header>
+    </header>-->
 
+<header>
 
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./imagenes/rc_completo_gris.png" alt="" class="w-85"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/acerca-de-mi.html">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/blog.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  
      <main>
 
       <section class= "portada">
@@ -34,11 +64,32 @@
 
         <h1>Real estate Investment</h1>
         <h4>Especialista en inversiones inmobiliarias</h4>
-        <a href="./pages/contacto.html">CONTÁCTAME</a>
+        <a href="./pages/contacto.html"class="btn mb-4 btn-red">CONTÁCTAME</a>
 
         </div>
 
       </section>
+
+  
+        <!--<section class="container">
+
+          <div class="row">
+          
+          <div class="col-12 text-center col-lg-6 col-xl-6">
+          <img src="./imagenes/experiencia-2.png" class="m-4 img-fluid rounded mx-auto d-block" alt="Empecemos">
+          </div>
+
+          <div class="col-12 text-center  col-lg-6 text-lg-start d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start col-xl-6 text-xl-startd-xl-flex flex-xl-column justify-content-xl-center align-items-xl-start">
+            <p>Más de una década de experiencia en la colocación de créditos y análisis de riesgos en el sector inmobiliario.
+              He decidido compartir mi conocimiento para ayudarte a realizar inversiones en bienes raíces en Estados Unidos (Florida y Texas) así como en México (Ciudad de México y Riviera Maya).</p>
+              <a href="http://wa.link/x4kqva" class="btn mb-4 btn-red">Empecemos</a>
+          </div>
+
+        </div>
+        </section>-->
+
+
+
     
       <section class="seccion-empecemos">
         <img src="./imagenes/experiencia.png"alt="experiencia">
@@ -46,50 +97,34 @@
         <div class="wrapper-texto-empecemos">      
             <p>Más de una década de experiencia en la colocación de créditos y análisis de riesgos en el sector inmobiliario.
             He decidido compartir mi conocimiento para ayudarte a realizar inversiones en bienes raíces en Estados Unidos (Florida y Texas) así como en México (Ciudad de México y Riviera Maya).</p>
-            <a href="http://wa.link/x4kqva" class="boton">
+            <a href="http://wa.link/x4kqva" class="btn mb-4 btn-red">
                 Empecemos
             </a>
         </div>
         </section>
+        
+        <section class="container">
 
+          <h2 class="Proyectos-en-Florida">Proyectos en Florida</h2>
 
-
-        <section class="Proyectos">
-
-            <h2 class="Proyectos-en-Florida">Proyectos en Florida</h2>
+        <div class="row">
         
-        
-        <div class="slider-proyectos">
-        
-            <article class="tarjeta">
-        
-             <img src="./imagenes/14-river.png"alt="14river"/>
-        
-             <div class="tarjeta-body">
-               <h3>14 River District</h3>
-               <p>Desarrollo de condominios de 16 pisos con 283 residencias llave en mano. Oportunidad flexible que permite tanto alquileres a corto plazo como Airbnb o alquileres a largo plazo.</p>
-              
-              </div>
+            <article class="col-12 col-md col-lg">
+             <img src="./imagenes/14-river.png" class="rounded mx-auto d-block" alt="14river"/>
+             <h3 class="m-4 text-center">14 River District</h3>
+             <p class="m-4 text-start"> Desarrollo de condominios de 16 pisos con 283 residencias llave en mano. Oportunidad flexible que permite tanto alquileres a corto plazo como Airbnb o alquileres a largo plazo.</p>
             </article>
         
-           <article class="tarjeta">
-             <img src="./imagenes/72-park.png"alt="72park"/>
-        
-             <div class="tarjeta-body">
-               <h3>72 park</h3>
-               <p>Es una exclusiva torre de condominios de lujo ubicada en las costas de Miami Beach. Este notable proyecto de 22 pisos está destinado a redefinir la vida junto a la playa con su oferta única de alquileres a corto plazo.</p>
-      
-             </div>
+           <article class="col-12 col-md col-lg">
+             <img src="./imagenes/72-park.png" class="rounded mx-auto d-block"alt="72park"/>
+             <h3 class="m-4 text-center">72 park</h3>
+             <p class="m-4 text-start">Es una exclusiva torre de condominios de lujo ubicada en las costas de Miami Beach. Este notable proyecto de 22 pisos está destinado a redefinir la vida junto a la playa con su oferta única de alquileres a corto plazo.</p>
            </article>
         
-           <article class="tarjeta">
-             <img src="./imagenes/bellaviva.png"alt="bellaviva"/>
-        
-             <div class="tarjeta-body">
-              <h3>Bellaviva</h3>
-              <p>Descubre esta nueva oportunidad de inversión y aprovecha los incentivos en los gastos de cierre. A sólo 15 minutos de los parques de diversión (Disney Magic Kingdom y Disney Springs)..</p>
-          
-             </div>
+           <article class="col-12 col-md col-lg">
+             <img src="./imagenes/bellaviva.png" class="rounded mx-auto d-block"alt="bellaviva"/>
+             <h3 class="m-4 text-center">Bellaviva</h3>
+              <p class="m-4 text-start">Descubre esta nueva oportunidad de inversión y aprovecha los incentivos en los gastos de cierre. A sólo 15 minutos de los parques de diversión (Disney Magic Kingdom y Disney Springs).</p>
             </article>
 
         </div>
@@ -111,8 +146,46 @@
        
      </main>
 
+     <div class="whatsapp">
+      <img src="./imagenes/whats.png" alt="whatsapp">
+     </div>
+
+     <footer class="color-gris text-white">
+
+      <div class="container">
+
+        <div class="row p-4 d-md-flex justify-content-md-between align-items-md-center">
+
+        <div class="mb-3 d-flex flex-column align-items-center col-md-3">
+        <img src="./imagenes/logo-complto.png" class="w-50 mb-4" alt="">
+        <p class="text-center"> Roe Consulting © 2024. Todos los derechos reservados.</p>
+        </div>
+
+        <div class="mb-3 col-md-3">
+          <h4 class="text-center">Nuestras redes</h4>
+
+          <div class="mb-3 fs-3 d-flex justify-content-evenly">
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          </div>
+        </div>
+
+
+        <div class="mb-4 col-md-4">
+        <h4 class="text-center">Suscríbete a nuestro Newsletter</h4>
+        <form action="" class="d-flex justify-content-center">
+          <input type="text">
+          <input type="submit" value= "Enviar" class="btn btn-yellow"> 
+        </form>
+        </div>
+
+      </div>
+        </div>
+
+     </footer>
      
-     <Footer>
+     <!--<footer>
 
       <div class= "footer">
 
@@ -126,12 +199,14 @@
             <img src="./imagenes/whats.png" alt="whatsapp">
 
         </section>
-
-
       </div>
 
+    </footer>-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
-    
-

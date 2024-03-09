@@ -585,7 +585,10 @@ background-color: #F8FAFB;
 
 }
 
+.contacto{
 
+    height: 900px;
+}
 
 /*.slider-blog {
     background-color:#F4F1EC;
@@ -675,7 +678,7 @@ background-color: #F8FAFB;
 }----*/
 
 
-/*---contactame---*/
+/*---contactame---
 
 .Contacto{
     background-color:#F8FAFB;
@@ -721,4 +724,4 @@ background-color: #F8FAFB;
     }
 
 
-}
+}*/

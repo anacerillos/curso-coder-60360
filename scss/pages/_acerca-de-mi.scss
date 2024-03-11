@@ -1,0 +1,50 @@
+.bio{
+    background-color:$color-primary;
+    padding: 3rem;
+
+    @include mq-tablet{
+        background-color:$color-primary;
+        padding: 1rem;
+       
+    }
+
+    @include desktop{
+
+     background-color:$color-primary;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 1000px;
+     gap:1rem;
+    }
+
+    div {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:justify;
+        gap: 1rem;
+        padding: 1rem;
+
+        @include mq-tablet{
+         display: flex;
+         flex-direction:column;
+         align-items:center;
+         text-align:justify;
+         gap: 1rem;
+         padding: 1rem;
+        }
+        
+        
+        @include desktop{
+         width:35%;
+         display: flex;
+         flex-direction: column;
+         align-items: start;
+         gap: 1rem;
+        }
+    }
+    
+}
+
+

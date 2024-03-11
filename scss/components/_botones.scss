@@ -1,0 +1,24 @@
+.btn-1 {
+    background-color:$color-tertiary;
+    color:$color-primary;
+
+}
+
+.btn-1:hover {
+    border: 2px solid $color-quaternary;
+    background-color: $color-primary;
+    color: $color-quaternary;
+}
+
+.btn-2 {
+    background-color: $color-quaternary;
+    color:$color-primary;
+
+}
+
+.btn-2:hover {
+    border: 2px solid $color-quaternary;
+    background-color: $color-primary;
+    color: $color-quaternary;
+
+}

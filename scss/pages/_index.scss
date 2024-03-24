@@ -1,19 +1,19 @@
 /*---portada---*/
 .portada {
-    background-image: url(../imagenes/index.jpg);
-    height: 500px;
+    background-image: url(../imagenes/index.png);
+    height: 800px;
     background-size: cover;
     background-position: center;
 
     @include mq-tablet{
-        background-image: url(../imagenes/index.jpg);
-        height: 600px;
+        background-image: url(../imagenes/index.png);
+        height: 800px;
         background-position: center;
         background-attachment: fixed;
     }
 
     @include desktop {
-        background-image: url("../imagenes/index.jpg");
+        background-image: url("../imagenes/index.png");
         height: 800px;
         background-size: cover;
         background-position: center;
@@ -39,7 +39,7 @@
         @include desktop {
             color: $color-primary;
             display:block;
-            padding: 15rem;
+            padding: 8rem;
             align-items:start;
             text-align: center;
         }
@@ -142,14 +142,14 @@ padding: 3rem;
 
       @include mq-tablet{
           background-image: url(../imagenes/escribeme.png);
-          height: 400px;
+          height: 600px;
           background-position: center;
           background-attachment: fixed;
      }
     
      @include desktop {
          background-image: url("../imagenes/escribeme.png");
-         height: 400px;
+         height: 600px;
          background-size: cover;
          background-position: center;
          background-attachment: fixed;

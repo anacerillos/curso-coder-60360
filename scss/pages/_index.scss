@@ -1,5 +1,8 @@
 /*---portada---*/
 
+.index{
+    background-color: $color-primary;
+}
 
 .portada {
     background-image: url(../imagenes/index.png);
@@ -52,6 +55,7 @@
         color: $color-primary;
         display:block;
         align-items: center;
+        text-align: center;
 
         @include mq-tablet{
             color: $color-primary;
@@ -119,10 +123,7 @@ div{
 
 /*----proyectos en florida----*/
 
-.index{ 
-    background-color: $color-primary;
-    
-}
+
 
 .slider-proyectos{
     background-color: $color-primary;

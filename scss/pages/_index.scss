@@ -13,14 +13,14 @@
 
     @include mq-tablet{
         background-image: url(../imagenes/index.png);
-        height: 800px;
+        height: 700px;
         background-position: center;
         background-attachment: fixed;
     }
 
     @include desktop {
         background-image: url("../imagenes/index.png");
-        height: 800px;
+        height: 700px;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;

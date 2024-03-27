@@ -1,6 +1,7 @@
 .footer{
     background-color:$color-secondary;
 }
+
 .whatsapp {
 
     position: fixed; 
@@ -10,8 +11,4 @@
 
 .whats:hover {
 transform: scale(1.5,1.5);
-}
-
-footer i:hover{
-color:bisque;
 }

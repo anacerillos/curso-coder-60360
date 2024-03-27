@@ -88,10 +88,6 @@ p {
   transform: scale(1.5, 1.5);
 }
 
-footer i:hover {
-  color: bisque;
-}
-
 /*---portada---*/
 .index {
   background-color: #F8FAFB;
@@ -360,10 +356,6 @@ footer i:hover {
   right: 5%;
 }
 
-.art {
-  height: 900px;
-}
-
 .relacionado {
   padding: 3rem;
 }
@@ -429,7 +421,6 @@ footer i:hover {
 }
 
 .contacto {
-  height: 900px;
   background-color: #F8FAFB;
 }
 

@@ -84,33 +84,29 @@ p {
   bottom: 20px;
 }
 
-.whats:hover {
-  transform: scale(1.5, 1.5);
-}
-
 /*---portada---*/
 .index {
   background-color: #F8FAFB;
 }
 
 .portada {
-  background-image: url(../imagenes/index.png);
+  background-image: url(../imagenes/index.webp);
   height: 800px;
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 768px) {
   .portada {
-    background-image: url(../imagenes/index.png);
-    height: 700px;
+    background-image: url(../imagenes/index.webp);
+    height: 0px;
     background-position: center;
     background-attachment: fixed;
   }
 }
 @media (min-width: 1280px) {
   .portada {
-    background-image: url("../imagenes/index.png");
-    height: 700px;
+    background-image: url(../imagenes/index.webp);
+    height: 800px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -219,14 +215,14 @@ p {
 
 /*----Escribeme----*/
 .escribeme {
-  background-image: url(../imagenes/escribeme.png);
+  background-image: url(../imagenes/escribeme.webp);
   height: 500px;
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 768px) {
   .escribeme {
-    background-image: url(../imagenes/escribeme.png);
+    background-image: url(../imagenes/escribeme.webp);
     height: 600px;
     background-position: center;
     background-attachment: fixed;
@@ -234,7 +230,7 @@ p {
 }
 @media (min-width: 1280px) {
   .escribeme {
-    background-image: url("../imagenes/escribeme.png");
+    background-image: url(../imagenes/escribeme.webp);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -409,7 +405,7 @@ p {
 }
 
 .metodologia {
-  background-image: url(../imagenes/m.png);
+  background-image: url(../imagenes/bg-acerca.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

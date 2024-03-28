@@ -5,22 +5,22 @@
 }
 
 .portada {
-    background-image: url(../imagenes/index.png);
+    background-image: url(../imagenes/index.webp);
     height: 800px;
     background-size: cover;
     background-position: center;
 
 
     @include mq-tablet{
-        background-image: url(../imagenes/index.png);
-        height: 700px;
+        background-image: url(../imagenes/index.webp);
+        height: 00px;
         background-position: center;
         background-attachment: fixed;
     }
 
     @include desktop {
-        background-image: url("../imagenes/index.png");
-        height: 700px;
+        background-image: url(../imagenes/index.webp);
+        height: 800px;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -133,21 +133,21 @@ div{
 /*----Escribeme----*/
 
 .escribeme {
- background-image: url(../imagenes/escribeme.png);
+ background-image: url(../imagenes/escribeme.webp);
  height: 500px;
  background-size: cover;
  background-position: center;
 
 
       @include mq-tablet{
-          background-image: url(../imagenes/escribeme.png);
+          background-image: url(../imagenes/escribeme.webp);
           height: 600px;
           background-position: center;
           background-attachment: fixed;
      }
     
      @include desktop {
-         background-image: url("../imagenes/escribeme.png");
+         background-image: url(../imagenes/escribeme.webp);
          height: 600px;
          background-size: cover;
          background-position: center;
